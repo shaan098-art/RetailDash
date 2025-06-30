@@ -29,33 +29,37 @@ st.title("Retail Sales & Shelf Analytics Dashboard")
 st.markdown("This dashboard provides in-depth insights on units sold, revenue, pricing, promotions, and foot traffic across shelves and stores.")
 
 # Tabs
-tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-    "Overview", "Shelf Analysis", "Category Insights", "Time Series", "Promotion Impact", "Foot Traffic"
-])
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Overview", "Shelf Analysis", "Category Insights", "Time Series", "Promotion Impact", "Foot Traffic"])
 
 with tab1:
     # Overview tab content
-    st.write("Content for Tab 1")
+    st.subheader("Overview")
+    st.write("This is the overview tab.")
 
 with tab2:
     # Shelf Analysis tab content
-    st.write("Content for Tab 2")
+    st.subheader("Shelf Analysis")
+    st.write("This is the shelf analysis tab.")
 
 with tab3:
     # Category Insights tab content
-    st.write("Content for Tab 3")
+    st.subheader("Category Insights")
+    st.write("This is the Category Insights tab.")
 
 with tab4:
     # Time Series tab content
-    st.write("Content for Tab 4")
+    st.subheader("Time Series")
+    st.write("This is the Time Series tab.")
 
 with tab5:
     # Promotion Impact tab content
-    st.write("Content for Tab 5")
+    st.subheader("Promotion Impact")
+    st.write("This is the Promotion Impact tab.")
 
 with tab6:
     # Foot Traffic tab content
-    st.write("Content for Tab 6")
+    st.subheader("Foot Traffic")
+    st.write("This is the Foot Traffic tab.")
 
     # Overview
     with st.container():
