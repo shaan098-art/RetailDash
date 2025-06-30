@@ -35,21 +35,27 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
 
 with tab1:
     # Overview tab content
+    st.write("Content for Tab 1")
 
 with tab2:
     # Shelf Analysis tab content
+    st.write("Content for Tab 2")
 
 with tab3:
     # Category Insights tab content
+    st.write("Content for Tab 3")
 
 with tab4:
     # Time Series tab content
+    st.write("Content for Tab 4")
 
 with tab5:
     # Promotion Impact tab content
+    st.write("Content for Tab 5")
 
 with tab6:
     # Foot Traffic tab content
+    st.write("Content for Tab 6")
 
     # Overview
     with st.container():
