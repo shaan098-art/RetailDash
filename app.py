@@ -29,7 +29,28 @@ st.title("Retail Sales & Shelf Analytics Dashboard")
 st.markdown("This dashboard provides in-depth insights on units sold, revenue, pricing, promotions, and foot traffic across shelves and stores.")
 
 # Tabs
-with st.tabs(["Overview", "Shelf Analysis", "Category Insights", "Time Series", "Promotion Impact", "Foot Traffic"]):
+tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+    "Overview", "Shelf Analysis", "Category Insights", "Time Series", "Promotion Impact", "Foot Traffic"
+])
+
+with tab1:
+    # Overview tab content
+
+with tab2:
+    # Shelf Analysis tab content
+
+with tab3:
+    # Category Insights tab content
+
+with tab4:
+    # Time Series tab content
+
+with tab5:
+    # Promotion Impact tab content
+
+with tab6:
+    # Foot Traffic tab content
+
     # Overview
     with st.container():
         st.subheader("📊 Overall KPIs")
